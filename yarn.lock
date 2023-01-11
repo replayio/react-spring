@@ -6612,63 +6612,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@replayio/cypress@npm:^0.4.7":
-  version: 0.4.7
-  resolution: "@replayio/cypress@npm:0.4.7"
-  dependencies:
-    "@replayio/replay": ^0.10.8
-    "@replayio/test-utils": ^0.3.6
-    semver: ^7.3.8
-    uuid: ^8.3.2
-  bin:
-    replayio-cypress: bin/replayio-cypress.js
-  checksum: 11c3e98842b1ec8d7ff3ab0a8b3b0fce5eec10f4a256e042320b7e3b2245fe6a5c626161db7ffe12dfb9e603f82f6328a3f102f60e47798551d52c70f175e1e2
-  languageName: node
-  linkType: hard
-
-"@replayio/replay@npm:^0.10.8":
-  version: 0.10.8
-  resolution: "@replayio/replay@npm:0.10.8"
-  dependencies:
-    "@replayio/sourcemap-upload": ^1.0.5
-    commander: ^7.2.0
-    debug: ^4.3.4
-    is-uuid: ^1.0.2
-    jsonata: ^1.8.6
-    superstruct: ^0.15.4
-    text-table: ^0.2.0
-    ws: ^7.5.0
-  bin:
-    replay: bin/replay.js
-  checksum: 768c03b810ae67e730637997c5f2ef6ce4507cf0427d60c094961bc6686e6360d6ceaacb675b802cc9aab74d0cc741c3dedc203b9da9d28c015964387d255249
-  languageName: node
-  linkType: hard
-
-"@replayio/sourcemap-upload@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@replayio/sourcemap-upload@npm:1.0.5"
-  dependencies:
-    commander: ^7.2.0
-    debug: ^4.3.1
-    glob: ^7.1.6
-    node-fetch: ^2.6.1
-    string.prototype.matchall: ^4.0.5
-  checksum: 05a9a8b8f2360c3186e8b56680c4b72b12c4bd6f8d17e32fceab468a070bc78e102cea3157f85f765bfbad5de1bd6602339d233793fc0be489943cadab01e2ab
-  languageName: node
-  linkType: hard
-
-"@replayio/test-utils@npm:^0.3.6":
-  version: 0.3.6
-  resolution: "@replayio/test-utils@npm:0.3.6"
-  dependencies:
-    "@replayio/replay": ^0.10.8
-    "@types/node-fetch": ^2.6.2
-    node-fetch: ^2.6.7
-    uuid: ^8.3.2
-  checksum: 3a7ae9128a39dc270e79c29c68b63b96d7c30ea0c3a6fb4cc16852cdf6a5b822e3ef2137734509b092e4adb8acd53e085412e9d8819b63f8196f57dd4261b8b0
-  languageName: node
-  linkType: hard
-
 "@rollup/plugin-alias@npm:^3.1.1":
   version: 3.1.9
   resolution: "@rollup/plugin-alias@npm:3.1.9"
@@ -7395,16 +7338,6 @@ __metadata:
   version: 0.7.31
   resolution: "@types/ms@npm:0.7.31"
   checksum: daadd354aedde024cce6f5aa873fefe7b71b22cd0e28632a69e8b677aeb48ae8caa1c60e5919bb781df040d116b01cb4316335167a3fc0ef6a63fa3614c0f6da
-  languageName: node
-  linkType: hard
-
-"@types/node-fetch@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "@types/node-fetch@npm:2.6.2"
-  dependencies:
-    "@types/node": "*"
-    form-data: ^3.0.0
-  checksum: 6f73b1470000d303d25a6fb92875ea837a216656cb7474f66cdd67bb014aa81a5a11e7ac9c21fe19bee9ecb2ef87c1962bceeaec31386119d1ac86e4c30ad7a6
   languageName: node
   linkType: hard
 
@@ -9951,13 +9884,6 @@ __metadata:
   version: 5.1.0
   resolution: "commander@npm:5.1.0"
   checksum: 0b7fec1712fbcc6230fcb161d8d73b4730fa91a21dc089515489402ad78810547683f058e2a9835929c212fead1d6a6ade70db28bbb03edbc2829a9ab7d69447
-  languageName: node
-  linkType: hard
-
-"commander@npm:^7.2.0":
-  version: 7.2.0
-  resolution: "commander@npm:7.2.0"
-  checksum: 53501cbeee61d5157546c0bef0fedb6cdfc763a882136284bed9a07225f09a14b82d2a84e7637edfd1a679fb35ed9502fd58ef1d091e6287f60d790147f68ddc
   languageName: node
   linkType: hard
 
@@ -14725,13 +14651,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-uuid@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "is-uuid@npm:1.0.2"
-  checksum: 53eb3544e4416ee2f170e204a319bf686768087d2de1f061f7261decd6b8e2cc16c83687fb081d3aac398c657c8e461ad43e3f664d3155b866db4016697624a3
-  languageName: node
-  linkType: hard
-
 "is-weakref@npm:^1.0.2":
   version: 1.0.2
   resolution: "is-weakref@npm:1.0.2"
@@ -15746,13 +15665,6 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: 74b8a23b102a6f2bf2d224797ae553a75488b5adbaee9c9b6e5ab8b510a2fc6e38f876d4c77dea672d4014a44b2399e15f2051ac2b37b87f74c0c7602003543b
-  languageName: node
-  linkType: hard
-
-"jsonata@npm:^1.8.6":
-  version: 1.8.6
-  resolution: "jsonata@npm:1.8.6"
-  checksum: 748e052aa1d848ba263918603a5e7e872c26fbd63fbb3330dd28cb9fa9aed0478730732fe03149fddcb1b1b4963f5eb359f06da6e17ef84734f2067b1841b995
   languageName: node
   linkType: hard
 
@@ -17784,7 +17696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:2.6.7, node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.7":
+"node-fetch@npm:2.6.7, node-fetch@npm:^2.6.7":
   version: 2.6.7
   resolution: "node-fetch@npm:2.6.7"
   dependencies:
@@ -19432,7 +19344,6 @@ __metadata:
     "@react-three/fiber": ^8.0.27
     "@remix-run/dev": "patch:@remix-run/dev@npm:1.7.0#./.yarn/patches/@remix-run-dev-npm-1.7.0-fe40e11b54.patch"
     "@remix-run/serve": ^1.7.0
-    "@replayio/cypress": ^0.4.7
     "@studiocompanion/scripts": ^1.2.2
     "@testing-library/cypress": ^8.0.3
     "@testing-library/jest-dom": ^5.16.4
@@ -20482,7 +20393,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.7, semver@npm:^7.3.8":
+"semver@npm:^7.3.7":
   version: 7.3.8
   resolution: "semver@npm:7.3.8"
   dependencies:
@@ -21207,7 +21118,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string.prototype.matchall@npm:^4.0.5, string.prototype.matchall@npm:^4.0.7":
+"string.prototype.matchall@npm:^4.0.7":
   version: 4.0.8
   resolution: "string.prototype.matchall@npm:4.0.8"
   dependencies:
@@ -21420,13 +21331,6 @@ __metadata:
   version: 9.2.1
   resolution: "sudo-prompt@npm:9.2.1"
   checksum: 50a29eec2f264f2b78d891452a64112d839a30bffbff4ec065dba4af691a35b23cdb8f9107d413e25c1a9f1925644a19994c00602495cab033d53f585fdfd665
-  languageName: node
-  linkType: hard
-
-"superstruct@npm:^0.15.4":
-  version: 0.15.5
-  resolution: "superstruct@npm:0.15.5"
-  checksum: 6d1f5249fee789424b7178fa0a1ffb2ace629c5480c39505885bd8c0046a4ff8b267569a3442fa53b8c560a7ba6599cf3f8af94225aebeb2cf6023f7dd911050
   languageName: node
   linkType: hard
 
@@ -23245,7 +23149,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.4.5, ws@npm:^7.5.0":
+"ws@npm:^7.4.5":
   version: 7.5.9
   resolution: "ws@npm:7.5.9"
   peerDependencies:
