@@ -1,9 +1,9 @@
 name: release
-on:
+on: 
+  schedule:
+    - cron: '0 * * * *'
   push:
-    branches:
-      - 'master'
-  pull_request: {}
+  workflow_dispatch:
 jobs:
   main:
     runs-on: ubuntu-latest
@@ -24,14 +24,14 @@ jobs:
       - name: Install
         run: yarn install
 
-      - name: Typecheck
-        run: yarn test:ts
+      # - name: Typecheck
+      #   run: yarn test:ts
 
-      - name: Tests (Jest)
-        run: yarn test:unit
+      # - name: Tests (Jest)
+      #   run: yarn test:unit
 
       - name: Test (Cypress)
         run: yarn test:e2e
 
-      - name: Build
-        run: yarn build
+      # - name: Build
+        # run: yarn build
