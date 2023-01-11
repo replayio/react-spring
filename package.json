@@ -77,6 +77,7 @@
     "@react-three/fiber": "^8.0.27",
     "@remix-run/dev": "patch:@remix-run/dev@npm:1.7.0#./.yarn/patches/@remix-run-dev-npm-1.7.0-fe40e11b54.patch",
     "@remix-run/serve": "^1.7.0",
+    "@replayio/cypress": "^0.4.7",
     "@studiocompanion/scripts": "^1.2.2",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.4",
