@@ -50,6 +50,7 @@
     "test:cov": "jest --coverage",
     "test:ts": "tsc --noEmit",
     "test:e2e": "start-server-and-test 'yarn vite serve packages/parallax/test --host' http-get://localhost:3000 'yarn cypress run'",
+    "test:e2e:replay": "start-server-and-test 'yarn vite serve packages/parallax/test --host' http-get://localhost:3000 'yarn cypress run --browser=\"Replay Chromium\"'",
     "test": "yarn test:ts && yarn test:unit && yarn test:e2e",
     "release": "yarn test:ts && yarn test:unit && yarn build && yarn changeset publish && yarn",
     "vers": "yarn changeset version"
@@ -76,7 +77,6 @@
     "@react-three/fiber": "^8.0.27",
     "@remix-run/dev": "patch:@remix-run/dev@npm:1.7.0#./.yarn/patches/@remix-run-dev-npm-1.7.0-fe40e11b54.patch",
     "@remix-run/serve": "^1.7.0",
-    "@replayio/cypress": "^0.4.7",
     "@studiocompanion/scripts": "^1.2.2",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "^5.16.4",
