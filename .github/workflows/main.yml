@@ -32,6 +32,13 @@ jobs:
 
       - name: Test (Cypress) with Replay
         run: yarn test:e2e:replay
+        env:
+          RECORD_ALL_CONTENT: 1
+          RECORD_REPLAY_METADATA_FILE: /tmp/replay-metadata
+          RECORD_REPLAY_TEST_METRICS: 1
+          # These two are here to help with measuring the true overhead by disabling diagnostics
+          RECORD_REPLAY_DISABLE_ASSERTS: 1
+          RECORD_REPLAY_DISABLE_SOURCEMAP_COLLECTION: 1
 
       - name: Upload replays
         if: ${{ always() }}
